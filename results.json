@@ -1,0 +1,21 @@
+{
+    "model_name": "Dirichlet + Ortho-FT Fine-Tuned (7B)",
+    "tasks": {
+        "PreciseWikiQA": {
+            "False Refusal Rate": 67.19,
+            "Hallucination Rate": 42.68,
+            "Correct Answer Rate": 14.29
+        },
+        "LongWiki": {
+            "False Refusal Rate": 19.93,
+            "Recall@32": 65.21,
+            "Precision": 53.43,
+            "F1@32": 58.45
+        },
+        "Nonexistent Entities": {
+            "Mixed Entities": 19.25,
+            "Generated Entities": 4.05,
+            "False Acceptance Rate": 11.65
+        }
+    }
+}
