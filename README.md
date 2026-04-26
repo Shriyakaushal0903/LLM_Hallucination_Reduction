@@ -33,7 +33,6 @@ Model: **Dirichlet + Ortho-FT Fine-Tuned (7B)**
 | | Generated Entities | 4.05% |
 | | False Acceptance Rate | 11.65% |
 
-> **Note:** The high False Refusal Rate on PreciseWikiQA suggests the model is over-cautious — a known trade-off when training with uncertainty-aware losses. Further tuning of the loss coefficient and training data composition is recommended.
 
 ---
 
